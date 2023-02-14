@@ -1,0 +1,67 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.formulario {
+    float:right;
+    width: calc(100% - 300px);
+    background-color: var(--secondary-color);
+    color: var(--gray-color);
+    padding: 30px;
+    margin: auto;
+    border-radius: 4px;
+    font-family: "LetraRegular", Arial, Helvetica, sans-serif;
+}
+
+.formulario h1{
+    margin:0;
+    margin-bottom: 20px;
+    font-family: "LetraBold", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px var(--gray-color);
+    color: var(--gold-color);
+    text-align: center;
+}
+
+.Box{
+    width: 100%;
+    background-color: white);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 2px solid var(--gray-color);
+    font-family: "LetraRegular",'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: var(--letter-color);
+}
+
+.Etiquetas{
+    text-transform: uppercase;
+    color: white;
+    background-color: var(--letter-color);
+}
+
+.formulario input[type="submit"]{
+    width: 100%;
+    text-transform: uppercase;
+    background-color: var(--letter-color);
+    color:var(--gold-color);
+    border: none;
+    padding: 10px;
+    transition: all 0,3s;
+}
+
+.formulario input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: var(--gold-color);
+    color: var(--letter-color);
+}
+
+@media (max-widht: 700px) {
+    aside {
+        width:100%;
+    }
+}

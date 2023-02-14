@@ -1,0 +1,19 @@
+header{
+    float:left;
+    width: 100%;
+    font-family: "LetraBold", Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 20px 0;
+}
+
+header img{
+    width: 150px;
+}
+
+header h1{
+    color: var(--letter-color);
+    font-size: 50px;
+    margin: 0;
+    text-shadow: 2px 2px 5px #ccc;
+    
+}

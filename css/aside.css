@@ -1,0 +1,71 @@
+aside{
+    float: left;
+    background-color: var(--secondary-color);
+    color: var(--gray-color);
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: solid 2px var(--gray-color);
+    box-shadow: 2px 2px 5px var(--gray-color);
+}
+
+aside h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    background-color: var(--letter-color);
+    text-align: center;
+    margin-top: 30px;
+    padding: 5px;
+    font-family: "LetraBold", Arial, Helvetica, sans-serif;
+    border-top: solid 2px var(--gray-color-dark);
+    border-bottom: solid 2px var(--gray-color-dark);
+}
+
+.widget{
+   margin-bottom: 30px; 
+}
+
+.widget form input[type="email"], .widget form input[type="password"]{
+    width: 100%; 
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.widget form input[type="submit"]{
+    width: 100%;
+    text-transform: uppercase;
+    color: white;
+    background-color: var(--secondary-color-dark);
+    border: none;
+    padding: 10px;
+    transition: all 0,3s;
+}
+
+.widget form input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: var(--letter-color);
+    color:var(--gold-color)
+}
+
+.widget ul{
+    list-style: circle;
+    padding-left: 20px;
+}
+
+.widget ul li{
+    margin: 15px 0;
+}
+
+.widget blockquote {
+    margin: 0;
+    color: var(--letter-color);
+    font-style:italic;
+}
+
+@media (max-widht: 700px) {
+    aside {
+        width:100%;
+    }
+}

@@ -1,0 +1,9 @@
+@font-face{
+    font-family: "LetraRegular" ;
+    src: url("../fonts/NunitoSans-Regular.ttf");
+}
+
+@font-face{
+    font-family: "LetraBold";
+    src: url("../fonts/NunitoSans-Bold.ttf")
+}
