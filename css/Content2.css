@@ -7,21 +7,12 @@
 }
 
 #SeñordelosAnillos{
+    padding left: 20px;
     background-color: var(--gray-color);
     font-size-adjust: auto;
     width: 100%;
     font-family:'Gill Sans';
     border-spacing: 0px 30px;
- }
-
- #thead{
-    margin:0;
-    font-size: 30px;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 5px var(--gray-color);
-    color:var(--gold-color);
-    text-align: center;
-
  }
 
  #SeñordelosAnillos, th{
@@ -32,6 +23,7 @@
      text-align: center;
  }
  #SeñordelosAnillos, tr{
+     padding-left: 10px;
      background-color: var(--secondary-color);
      color: var(--secondary-color-dark);
      font-family:'Gill Sans MT';     
